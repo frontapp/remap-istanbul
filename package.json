@@ -38,7 +38,7 @@
     "es6-promise": "^3.0.2",
     "es6-weak-map": "^2.0.1",
     "gulp-util": "3.0.7",
-    "istanbul": "0.4.1",
+    "istanbul": "git+ssh://git@github.com/frontapp/istanbul.git",
     "source-map": "0.5.3",
     "through2": "2.0.0"
   },
