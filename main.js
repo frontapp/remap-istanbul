@@ -1,5 +1,7 @@
 /* jshint node:true */
 /* global Promise */
+require('es6-promise').polyfill();
+require('es6-weak-map/implement');
 var loadCoverage = require('./lib/loadCoverage');
 var remap = require('./lib/remap');
 var writeReport = require('./lib/writeReport');
